@@ -1,6 +1,49 @@
-body {
-  background-color: #f9f7fe;
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f9f7fe;
 }
-img {
-  width: 200px;
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.top-section {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 140px 0;
+  font-family: "Poppins", sans-serif;
+}
+.top-section h1 {
+  font-size: 96px;
+  line-height: 128px;
+}
+
+.top-section h2 {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+}
+.top-section p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.primary-link {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  font-size: 18px;
+  padding: 18px 46px;
+}
+.secondary-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  border: var(--primary-color) 1px solid;
+  font-size: 16px;
+  padding: 18px 25px;
+  border-radius: 4px;
 }
