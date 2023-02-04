@@ -47,3 +47,18 @@ p {
   padding: 18px 25px;
   border-radius: 4px;
 }
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.active,
+nav a:hover {
+  color: var(--primary-color);
+}
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0;
+}
